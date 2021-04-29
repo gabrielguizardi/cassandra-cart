@@ -1,6 +1,5 @@
 import 'tailwindcss/tailwind.css';
 import Home from './pages/Home';
-import Ticket from './pages/Ticket';
 
 import {
   BrowserRouter as Router,
@@ -14,9 +13,6 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route path="/ticket">
-              <Ticket/>
-            </Route>
             <Route path="/">
               <Home/>
             </Route>

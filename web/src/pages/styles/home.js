@@ -53,31 +53,49 @@ const Input = styled.input`
 
 const Button = styled.input`
   background-color: #FFF;
-  border:1px solid #3B82F6;
+  border: 1px solid #3B82F6;
   font-weight: 600;
-  color: #3B82F6;
   padding: 10px 20px;
   border-radius: 90px;
   cursor: pointer;
+  }
+`;
+
+const ExcludeButton = styled.button`
+  font-weight: 400;
+  color: #000;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
   transition: background 1s;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+   &:hover {
+    color: #4B5563
+  }
+`;
+
+const EditButton = styled.button`
+  font-weight: 400;
+  color: #000;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  transition: background 1s;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   &:hover {
-    background-color: #3B82F6;
-    color: #FFF
+    color: #4B5563
   }
 `;
 
 const ImageBackground = styled.div`
-  
   width: 100%;
   flex: 1;
-
 `;
-// background-image: url(${'../../images/cinema.png'});
-// background-color: #FA1E44;
-// &:before {
-//   filter: grayscale(60%);
-// }
-// background-size: cover;
+
 export {
   H1,
   H2,
@@ -85,5 +103,7 @@ export {
   Input,
   Button,
   ImageBackground,
-  Image
+  Image,
+  ExcludeButton,
+  EditButton
 }
