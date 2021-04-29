@@ -1,5 +1,9 @@
-# Trabalho des banco de dados noSQL
+# Cassandra cart
 
-## Fazer gerenciamento de fila utilizando o redis
+**Integrantes**
 
-### redis-queues
+- https://github.com/MileneCruz
+- https://github.com/fhamas3
+- https://github.com/iagomedeiros
+- https://github.com/JonathanTsen
+- https://github.com/joseadami
