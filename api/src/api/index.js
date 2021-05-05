@@ -79,7 +79,7 @@ router.delete('/products/:id_carrinho', async (req, res) => {
   try {
     const query = 'DELETE FROM carrinho WHERE id_carrinho = ?';
     await req.conn.execute(query, [req.params.id_carrinho]);
-    res.status(200).json({ message: 'Jonathan SAFADO e copião, aprendiz de zé!' });
+    res.status(200).json({ message: 'Deletado com sucesso' });
   } catch (error) {
     res.json({ message: 'erro' });
   }
